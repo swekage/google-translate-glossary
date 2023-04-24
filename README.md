@@ -13,7 +13,7 @@ The full guide is here [https://medium.com/@swekage/the-ultimate-guide-to-settin
 ## Setup
 
 1. `npm install`
-2. Download your service account credentials JSON and put it in the project root. Remember to add the file to your .gitignore so it doesn't get pushed to Github!
+2. Download your service account credentials JSON and put it in the project root. Remember to add the file to your `.gitignore` so it doesn't get pushed to Github!
 3. In `google.js`, replace the following constants with your own values:
 
 - `SERVICE_ACCOUNT_CREDENTIALS`
@@ -29,5 +29,9 @@ The full guide is here [https://medium.com/@swekage/the-ultimate-guide-to-settin
    a. delete the current glossary resource
    b. upload `glossary.csv` to your bucket
    c. create the new glossary resource
+   
+![Screen Shot 2023-04-24 at 2 39 58 AM](https://user-images.githubusercontent.com/131513108/233918663-03aa37de-ae33-4af5-adc7-e6d9be0e3af3.png)
 
 2. You can run `node translate.js` to translate a few sample strings
+
+![Screen Shot 2023-04-24 at 2 40 15 AM](https://user-images.githubusercontent.com/131513108/233918693-2b651ed6-efec-4f34-b1ad-404259bca683.png)
