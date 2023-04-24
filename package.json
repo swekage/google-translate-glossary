@@ -1,0 +1,21 @@
+{
+  "name": "google-translate-glossary",
+  "version": "1.0.0",
+  "description": "Showing you how to set up Google Translate glossaries in JavaScript",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swekage/google-translate-glossary.git"
+  },
+  "author": "sweKage",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swekage/google-translate-glossary/issues"
+  },
+  "homepage": "https://github.com/swekage/google-translate-glossary#readme",
+  "dependencies": {
+    "@google-cloud/storage": "^6.9.5",
+    "@google-cloud/translate": "^7.2.1"
+  }
+}
